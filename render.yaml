@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: smartshaxx
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8274784522:AAGSUr02zVaqDmFJSmlNdCXvig5_TD-oTSs
+      - key: OPENROUTER_API_KEY
+        value: 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
